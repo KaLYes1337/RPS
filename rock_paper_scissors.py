@@ -29,6 +29,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
         print("Tie!")
         games_played+=1
         print("Games played: ",games_played)
+        print("#-------------------------------------#")
         
 
     elif player == "rock":
@@ -40,6 +41,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
             print("Games played: ",games_played)
             player_score += 0
             computer_score += 1
+            print("#-------------------------------------#")
         if computer == "scissors":
             print("Computer: ", computer)
             print("Player: ", player)
@@ -49,6 +51,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
 
             player_score += 1
             computer_score += 0
+            print("#-------------------------------------#")
     # -----------------------------------------------------------------------#
     elif player == "paper":
         if computer == "rock":
@@ -60,6 +63,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
 
             player_score += 1
             computer_score += 0
+            print("#-------------------------------------#")
         if computer == "scissors":
             print("Computer: ", computer)
             print("Player: ", player)
@@ -69,6 +73,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
 
             player_score += 0
             computer_score += 1
+            print("#-------------------------------------#")
     # -----------------------------------------------------------------------#
     elif player == "scissors":
         if computer == "paper":
@@ -80,6 +85,7 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
 
             player_score += 1
             computer_score += 0
+            print("#-------------------------------------#")
         if computer == "rock":
             print("Computer: ", computer)
             print("Player: ", player)
@@ -89,3 +95,4 @@ while player_score != games_needed_to_win or computer_score != games_needed_to_w
 
             player_score += 0
             computer_score += 1
+            print("#-------------------------------------#")
