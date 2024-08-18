@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+# Rock Paper Scissors/n
 
 Just the basic rock, paper, scissors game that keeps track of the score and determines the winner.
 The winner is the first player to reach 3 points.
